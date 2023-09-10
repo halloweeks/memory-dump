@@ -16,6 +16,6 @@ Dump memory by process id
 Dump memory by process name
 
 ```
-./mem-dump.exe -n myprogram
+./mem-dump.exe -n chrome.exe
 ```
 
