@@ -2,10 +2,14 @@
 #include <time.h>
 #include <stdint.h>
 
-#if defined(__ANDROID__)
+#if defined(WIN32)
+#include "os_windows.h"
+#elif defined(__ANDROID__)
 #include "os_android.h"
 #elif defined(__linux__)
 #include "os_linux.h"
+#elif defined(__APPLE__)
+#include "os_osx.h"
 #else
 #error Unknown OS!
 #endif
