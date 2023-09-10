@@ -1,5 +1,5 @@
 # Memory Dump
-Utility to dump memory in running processes memory. Works for linux and android
+Utility to dump memory in running processes memory.
 
 # Usage
 
