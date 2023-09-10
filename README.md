@@ -4,7 +4,7 @@ Utility to dump memory in running processes memory.
 # Usage
 
 ```
-cc memory-dump.c -o mem-dump.exe
+g++ memory-dump.c -o mem-dump.exe
 ```
 
 Dump memory by process id
